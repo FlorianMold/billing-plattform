@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato/Lato-Regular.woff);
+}
+body {
+    font-family: Lato, sans-serif;
+}
+
+.footer a {
+    text-transform: uppercase;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.mousepointer {
+    cursor: pointer;
+}
