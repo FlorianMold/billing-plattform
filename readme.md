@@ -1,27 +1,24 @@
-# Laravel PHP Framework
+# Rechnungsplattform
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+# Aufgabenstellung
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Ziel der Diplomarbeit ist, dass sich die Lieferanten mit ihrer
+Lieferantennummer bei der Plattform registrieren und warten, bis die Buchhaltung sie freigibt. Danach kann der Lieferant beginnen hochzuladen. Zusätzlich zur Rechnung müssen noch sogenannte Metadaten angegeben werden. Diese beschreiben die Rechnung näher (z.B.: Betrag). Nachdem die
+Rechnung hochgeladen wurde, erscheint diese in der Buchhaltung. Daraufhin kann ein Buchhalter die Rechnung "holen".
+Dies bedeutet, dass die Rechnung im PDF-Format mitsamt
+der Metadaten in Form einer XML-Datei per E-Mail an die
+automatische Rechnungsverwaltung gesendet wird.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+# Realisierung
 
-## Official Documentation
+Das System wurde mit der serverseitigen Programmiersprache PHP implementiert. Zusätzlich wurde das Entwicklungsframework Laravel verwendet, um den Entwicklungsprozess zu
+vereinfachen und zu beschleunigen. Damit die Firma ELK Fertighaus GmbH das System besser in ihre bestehende Struktur
+integrieren kann, wurde auf eine Oracle-Datenbank gesetzt
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+# Ergebnisse
 
-## Contributing
+Alle Funktionen, die der Auftraggeber vom Projektteam verlangt hat, sind zu seiner Zufriedenheit implementiert. Alle
+MUSS-Ziele sind in der Anwendung vorhanden und funktional. Auch die optionalen Ziele, nämlich, dass ein Lieferant die
+Buchhaltung benachrichtigen kann, wenn ein Fehler bei einer
+seiner Rechnungen aufgetreten ist, wurden implementiert.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
